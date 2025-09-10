@@ -13,6 +13,8 @@ export default function About() {
         <img
           src={Pic}
           alt="Youcef Shaath"
+          loading="eager"
+          fetchPriority="high"
           className="md:w-[250px] md:h-[250px] w-40 h-40 object-cover rounded-full shadow-lg shadow-[#124170]/50 md:ml-24 md:mb-0 mb-8 border-2 border-[#124170]"
         />
         <p className="md:text-2xl text-lg text-gray-700 max-w-3xl text-center md:ml-4">
