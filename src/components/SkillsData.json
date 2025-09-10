@@ -1,0 +1,112 @@
+{
+  "Skills": [
+    {
+      "name": "JavaScript",
+      "icon": "https://www.svgrepo.com/show/333556/javascript.svg",
+      "level": 85,
+      "description": "Strong knowledge of modern JavaScript (ES6+), building interactive and dynamic web applications."
+    },
+    {
+      "name": "React",
+      "icon": "https://www.svgrepo.com/show/368912/react.svg",
+      "level": 90,
+      "description": "Experience creating reusable components, using hooks, and managing state with React."
+    },
+    {
+      "name": "HTML5",
+      "icon": "https://www.svgrepo.com/show/506664/html5.svg",
+      "level": 95,
+      "description": "Proficient in semantic HTML5, accessibility, and building structured web pages."
+    },
+    {
+      "name": "CSS3",
+      "icon": "https://www.svgrepo.com/show/372994/css3.svg",
+      "level": 95,
+      "description": "Skilled in responsive design, animations, and styling with modern CSS techniques."
+    },
+    {
+      "name": "Node.js",
+      "icon": "https://www.svgrepo.com/show/314392/node.svg",
+      "level": 85,
+      "description": "Backend development using Node.js with REST APIs, authentication, and server-side logic."
+    },
+    {
+      "name": "Tailwind CSS",
+      "icon": "https://www.svgrepo.com/show/306831/tailwindcss.svg",
+      "level": 90,
+      "description": "Efficient UI design with Tailwind CSS utility-first classes for modern, responsive layouts."
+    },
+    {
+      "name": "Git",
+      "icon": "https://img.icons8.com/?size=512&id=38389&format=png",
+      "level": 90,
+      "description": "Version control with Git, experienced in branching, merging, and collaborative workflows."
+    },
+    {
+      "name": "C++",
+      "icon": "https://www.svgrepo.com/show/333518/c-plus-plus.svg",
+      "level": 95,
+      "description": "Good understanding of C++ for problem solving, algorithms, and object-oriented programming."
+    },
+    {
+      "name": "C#",
+      "icon": "https://www.svgrepo.com/show/369216/c-sharp.svg",
+      "level": 85,
+      "description": "Knowledge of C# for .NET applications, Windows forms, and backend development."
+    },
+    {
+      "name": "TypeScript",
+      "icon": "https://www.svgrepo.com/show/503404/language-typescript.svg",
+      "level": 80,
+      "description": "Comfortable with TypeScript for strong typing, safer code, and scalable React/Node projects."
+    },
+    {
+      "name": "Express.js",
+      "icon": "https://www.svgrepo.com/show/330398/express.svg",
+      "level": 85,
+      "description": "Backend web framework experience with Express.js, routing, middleware, and REST APIs."
+    },
+    {
+      "name": "MongoDB",
+      "icon": "https://www.svgrepo.com/show/473729/mongodb.svg",
+      "level": 85,
+      "description": "Experience with MongoDB for NoSQL data modeling, CRUD operations, and aggregation."
+    },
+    {
+      "name": "SQL Server",
+      "icon": "https://www.svgrepo.com/show/341068/sql.svg",
+      "level": 90,
+      "description": "Working knowledge of SQL Server, relational databases, and query optimization."
+    },
+    {
+      "name": "Postman",
+      "icon": "https://www.svgrepo.com/show/342128/postman.svg",
+      "level": 90,
+      "description": "API testing and automation using Postman for REST APIs and backend services."
+    },
+    {
+      "name": "Github",
+      "icon": "https://www.svgrepo.com/show/512317/github-142.svg",
+      "level": 85,
+      "description": "Proficient with GitHub for collaboration, pull requests, and project management."
+    },
+    {
+      "name": "Next.js",
+      "icon": "https://www.svgrepo.com/show/354113/nextjs-icon.svg",
+      "level": 85,
+      "description": "Experience with Next.js for server-side rendering, static site generation, and SEO optimization."
+    },
+    {
+      "name": ".Net",
+      "icon": "https://www.svgrepo.com/show/473592/dotnet.svg",
+      "level": 85,
+      "description": "Basic knowledge of .NET framework for building enterprise-level applications."
+    },
+    {
+      "name": "Rest API",
+      "icon": "https://www.svgrepo.com/show/503162/api.svg",
+      "level": 85,
+      "description": "Strong understanding of REST API design principles and implementation with Node/Express."
+    }
+  ]
+}
