@@ -20,14 +20,12 @@ export default function Skill(props) {
         const dialogMargin = 20;
 
         if (window.innerWidth >= 768) {
-          // Desktop → flip if overflowing
           if (rect.right + dialogWidth + dialogMargin > screenWidth) {
             setShowLeft(true);
           } else {
             setShowLeft(false);
           }
         } else {
-          // Mobile → keep old behavior
           if (rect.left + dialogWidth > screenWidth) {
             setShowLeft(true);
           } else {
@@ -41,8 +39,12 @@ export default function Skill(props) {
   }, [isHovered, props.level]);
 
   const handleMouseEnter = () => {
-    const timeout = setTimeout(() => setHovered(true), 1000);
-    setHoverTimeout(timeout);
+    if (window.innerWidth >= 768) {
+      const timeout = setTimeout(() => setHovered(true), 1000);
+      setHoverTimeout(timeout);
+    } else {
+      setHovered(true);
+    }
   };
 
   const handleMouseLeave = () => {
@@ -68,15 +70,13 @@ export default function Skill(props) {
         <div
           className={`absolute w-[280px] bg-gray-800 text-white p-5 rounded-lg shadow-2xl transition-opacity duration-300
             ${
-              // Desktop positioning
               window.innerWidth >= 768
                 ? showLeft
                   ? "md:top-1/2 md:right-[calc(100%+20px)] md:-translate-y-1/2"
                   : "md:top-1/2 md:left-[calc(100%+20px)] md:-translate-y-1/2"
-                : // Mobile positioning (old logic with isEven)
-                  isEven
-                  ? "top-full left-0 mt-2"
-                  : "top-full right-0 mt-2"
+                : isEven
+                ? "top-full left-0 mt-2"
+                : "top-full right-0 mt-2"
             }`}
           style={{ zIndex: 9999 }}
         >

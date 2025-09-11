@@ -69,7 +69,7 @@ export default function Projects() {
                   </>
                 )}
               </div>
-              <div className="relative z-10">
+              <div className="relative z-9">
                 <span className="h-6 w-6 rounded-full bg-blue-500 text-white flex items-center justify-center text-sm font-bold ring-4 ring-[#F9F7F7]">
                   {index + 1}
                 </span>
