@@ -33,6 +33,14 @@ export default function Skill(props) {
           }
         }
       }
+
+      if (window.innerWidth < 768) {
+        const handleScroll = () => setHovered(false);
+        window.addEventListener("scroll", handleScroll, { passive: true });
+        return () => {
+          window.removeEventListener("scroll", handleScroll);
+        };
+      }
     } else {
       setProgressWidth(0);
     }
