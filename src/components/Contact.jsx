@@ -1,4 +1,4 @@
-import { Phone, Mail, Github, Linkedin } from "lucide-react";
+import { Mail, Github, Linkedin } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -19,16 +19,6 @@ export default function Contact() {
           </a>
         </div>
 
-        <div className="flex items-center gap-2">
-          <Phone size={20} />
-          <a
-            href="tel:0658145653"
-            className="text-md hover:underline hover:text-gray-200"
-          >
-            0658145653
-          </a>
-        </div>
-
         <div className="flex gap-6 mt-4">
           <a
             href="https://github.com/YoucefShaath"
@@ -46,6 +36,9 @@ export default function Contact() {
           </a>
         </div>
       </div>
+      <p className="text-center text-sm mt-4">
+        &copy; {new Date().getFullYear()} Youcef Shaath. All rights reserved.
+      </p>
     </footer>
   );
 }
